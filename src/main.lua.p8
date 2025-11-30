@@ -13,7 +13,7 @@ __lua__
 #include gui.lua
 #include level.lua
 
-
+test2 = 5
 
 function _init()
     gamestate.set(game_state)
