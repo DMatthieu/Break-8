@@ -2,8 +2,8 @@
 [000000]   platform: Linux
 [000000]   Found config.txt
 [000000]   
-[000000]     01 window_size 0 0 // window width, height
-[000000]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000000]     01 window_size 1000 1000 // window width, height
+[000000]     02 screen_size 1000 1000 // screen width, height (stretched to window) 
 [000000]     03 show_fps 0 // Draw frames per second in the corner
 [000000]     04 windowed 1 // 1 to start up in windowed mode
 [000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
@@ -13,7 +13,7 @@
 [000000]     08 blit_method 0  // 0 auto  1 software (slower but sometimes more reliable)  2 hardware (can do filtered scaling) 
 [000000]     09 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
 [000000]     10 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
-[000000]     11 sessions 125 // number of times program has been run
+[000000]     11 sessions 128 // number of times program has been run
 [000000]     12 rmb_key 0 // 0 for none  226 for LALT
 [000000]     13 desktop_path 
 [000000]     14 read_controllers_in_background 0
@@ -24,79 +24,79 @@
 [000000]     19 use_wget 0 // (Linux) 1 to use wget for downloads instead of libcurl (must be installed)
 [000000]     20 version 0.2.7
 [000000]     21 volume 256
-[000001]     22 root_path /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/carts/
-[000001]     23 cdata_path /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/cdata/
-[000001]     24 joystick_index 0
-[000001]     25 merge_joysticks 0
-[000001]     26 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-[000001]     27 live_notes 0
-[000001]     28 cursor_snap 0
-[000001]     29 gui_theme 0
-[000001]     30 screenshot_scale 3
-[000001]     31 gif_scale 3
-[000001]     32 gif_len 16
-[000001]     33 gif_reset_mode 0
-[000001]     34 host_framerate_control 1
-[000001]     35 splore_filter 0
-[000001]     36 boot_to_splore 0
-[000001]     37 tab_width 1
-[000001]     38 draw_tabs 0
-[000001]     39 record_activity_log 1
-[000001]     40 allow_function_keys 1
-[000001]     41 check_for_cart_updates 1
-[000001]     42 auto_hide_mouse_cursor 5
-[000001]     43 aggressive_backups 0
-[000001]     44 periodic_backups 20
+[000000]     22 root_path /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/carts/
+[000000]     23 cdata_path /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/cdata/
+[000000]     24 joystick_index 0
+[000000]     25 merge_joysticks 0
+[000000]     26 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     27 live_notes 0
+[000000]     28 cursor_snap 0
+[000000]     29 gui_theme 0
+[000000]     30 screenshot_scale 3
+[000000]     31 gif_scale 3
+[000000]     32 gif_len 16
+[000000]     33 gif_reset_mode 0
+[000000]     34 host_framerate_control 1
+[000000]     35 splore_filter 0
+[000000]     36 boot_to_splore 0
+[000000]     37 tab_width 1
+[000000]     38 draw_tabs 0
+[000000]     39 record_activity_log 1
+[000000]     40 allow_function_keys 1
+[000000]     41 check_for_cart_updates 1
+[000000]     42 auto_hide_mouse_cursor 5
+[000000]     43 aggressive_backups 0
+[000000]     44 periodic_backups 20
 [000001]     45 transform_screen 0
 [000001]     46 gfx_grid_lines 0
 [000001]     47 capture_timestamps 0
 [000001]     48 max_prefetch_threads 4
-[000002]     49 accept_future 0
-[000002]   
-[000002]   codo_system_init
-[000229]   Compiled against SDL version: 2.0.8
-[000229]   Linked against SDL version:   2.0.8
-[000229]   Current video driver: x11
-[000229]   codo_reset_timer
-[000229]   codo_gui_init
-[000229]   codo_keys_init
-[000229]   codo_text_init
-[000229]   codo_video_init
-[000229]   codo_mouse_init
-[000229]   codo_joystick_init
-[000230]   Reading controller mappings: /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/sdl_controllers.txt
-[000230]   searching for joysticks
-[000230]     found 0 joysticks
-[000230]   ok
-[000230] ok
-[000238] codo_load_pod: /mnt/f4bc86cf-8048-4037-8705-2a3247794bc1/Lexaloffle/pico-8/pico8.dat ok 
-[000241] codo_set_screen 128 128 8 100
-[000241]  window size: 640 540
-[000315]   setting filter to nearest (screen_mode 0  back page width: 128)
+[000001]     49 accept_future 0
+[000001]   
+[000001]   codo_system_init
+[000153]   Compiled against SDL version: 2.0.8
+[000153]   Linked against SDL version:   2.0.8
+[000153]   Current video driver: x11
+[000153]   codo_reset_timer
+[000153]   codo_gui_init
+[000153]   codo_keys_init
+[000153]   codo_text_init
+[000153]   codo_video_init
+[000153]   codo_mouse_init
+[000153]   codo_joystick_init
+[000153]   Reading controller mappings: /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/sdl_controllers.txt
+[000153]   searching for joysticks
+[000153]     found 0 joysticks
+[000153]   ok
+[000153] ok
+[000168] codo_load_pod: /home/matt/Documents/GAMEDEV/pico-8_0.2.7/pico-8/pico8.dat ok 
+[000169] codo_set_screen 128 128 8 100
+[000169]  window size: 1000 1000
+[000190]   setting filter to nearest (screen_mode 0  back page width: 128)
   renderer opengl:
    flags: 0x0000000E ( |  | )
    texture formats (5): ARGB8888, YV12, IYUV, 0x3231564e, 0x3132564e
-   max texture size: 16384x16384
-[000323]  desktop size: 1920 1080
-[000323] ok
-[000327] codo_sound_init mix_buffer_size: 1024
-[000327] codo_sound_init
-[000327] SDL_INIT_AUDIO ok
-[000343] SDL_OpenAudio ok
-[000343]  freq:22050
+   max texture size: 32768x32768
+[000190]  desktop size: 3840 2160
+[000190] ok
+[000193] codo_sound_init mix_buffer_size: 1024
+[000193] codo_sound_init
+[000193] SDL_INIT_AUDIO ok
+[000204] SDL_OpenAudio ok
+[000204]  freq:22050
  channels:1
-[000343] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
-[000343] Current audio driver: pulseaudio
-[002079] loading /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8
-[003752] run_cart current_filename: /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8 running_filename: /home/matt/Bureau/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8 running_cart_lid: 
-[014082] window closed (14)
-[014082] codo_exit
-[014082]   cmusic_stop
-[014082]   codo_main_exit
-[014084]   codo_config_save
-[014085]   codo_sound_exit
-[014085]   codo_video_exit
-[014095]   codo_joystick_exit
-[014095]   codo_system_exit
-[014096]   codo_items_created: 1323
-[014096] ok
+[000204] Built-in audio drivers: 0 pulseaudio 1 alsa 2 dsp 3 disk 4 dummy
+[000204] Current audio driver: pulseaudio
+[001877] loading /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8
+[003548] run_cart current_filename: /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8 running_filename: /home/matt/Documents/GAMEDEV/2025/_PROJECTS/Break-8/src/main.lua.p8 running_cart_lid: 
+[005409] window closed (14)
+[005409] codo_exit
+[005409]   cmusic_stop
+[005409]   codo_main_exit
+[005409]   codo_config_save
+[005410]   codo_sound_exit
+[005410]   codo_video_exit
+[005410]   codo_joystick_exit
+[005410]   codo_system_exit
+[005410]   codo_items_created: 1323
+[005410] ok
