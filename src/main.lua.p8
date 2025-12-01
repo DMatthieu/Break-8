@@ -3,6 +3,8 @@ version 43
 __lua__
 #include player.lua
 #include enemies.lua
+#include ball.lua
+
 #include utils.lua
 
 #include gamestate.lua
