@@ -20,6 +20,7 @@ test2 = 5
 function _init()
     gamestate.set(game_state)
     --test
+    --test
 end
 
 function _update()

@@ -29,7 +29,9 @@ end
 function player:draw()
     --draw pad
     rectfill(self.x, self.y, self.x+self.w, self.y+self.h, self.color)
-    line(self.x, self.y+self.h, self.x+self.w, self.y+self.h,self.color-1) --pad's shadow
+    --pad's shadow
+    line(self.x, self.y+self.h, self.x+self.w, self.y+self.h,self.color-1)
+
 
 end
 
