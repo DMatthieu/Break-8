@@ -13,28 +13,30 @@ function player:new()
         moving="true",
         spd=4,
         extGauche=2,
-        extDroite=105
+        extDroite=105,
+        nbLifes=3
     }
     setmetatable(player, self)
     return player
 end
 
 function player:update()
-    self:movements()--permet d'appeller une des méthode de l'objet player, au sein de lui même
+    self:inputs()--permet d'appeller une des méthode de l'objet player, au sein de lui même
+
+
 end
 
 function player:draw()
     --draw pad
     rectfill(self.x, self.y, self.x+self.w, self.y+self.h, self.color)
-    line(self.x, self.y+self.h, self.x+self.w, self.y+self.h,6) --pad's shadow
-
-    
+    --pad's shadow
+    line(self.x, self.y+self.h, self.x+self.w, self.y+self.h,self.color-1)
 
 
 end
 
 --Handle player movements AND collision of the pad with walls.
-function player:movements()
+function player:inputs()
         --ifplayer not moving:
     self.moving=false
 
@@ -49,6 +51,7 @@ function player:movements()
             --bip !
         end
     end
+
     --RIGHT
     if btn(1) then 
         if self.x<self.extDroite then
@@ -59,4 +62,5 @@ function player:movements()
             --bip !
         end
     end
+    
 end

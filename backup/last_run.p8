@@ -3,6 +3,8 @@ version 43
 __lua__
 #include player.lua
 #include enemies.lua
+#include ball.lua
+
 #include utils.lua
 
 #include gamestate.lua
@@ -13,10 +15,12 @@ __lua__
 #include gui.lua
 #include level.lua
 
-
+test2 = 5
 
 function _init()
     gamestate.set(game_state)
+    --test
+    --test
 end
 
 function _update()

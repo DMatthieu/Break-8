@@ -1,1 +1,1 @@
-#include src/main.lua
+#include src/main.lua.p8
