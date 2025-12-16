@@ -5,7 +5,6 @@ function game_state:init()
     --spawn joueur
     p = player:new()
     l = level:new()
-    
 end
 
 function game_state:update()

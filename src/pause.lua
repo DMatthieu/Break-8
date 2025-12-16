@@ -18,5 +18,5 @@ end
 function pause_state:draw()
     cls()
     --affichage gameplay
-    print("pAuSe.......", 40, 40, 7)
+    print("pause !", 40, 40, 7)
 end
